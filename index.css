@@ -1,0 +1,2033 @@
+/* Подключаем шрифт Oswald. Гугловский */
+@font-face { 
+    font-family: 'Oswald';
+    src: url('Oswald-VariableFont_wght.ttf'); 
+ }
+ @font-face { 
+    font-family: 'Roboto-Regular';
+    src: url('Roboto-Regular.ttf'); 
+ }
+/* Настройки для лого в шапке */
+img#I1 {
+    position: absolute;
+left: 120px;
+right: 84.6%;
+top: 32px;
+}
+/* Тут у меня идут кнопки сверху, что в шапке
+T-text
+B-body
+I-img
+BT-body text
+BUT-button
+RISH-rectangle in shadow
+R-rectangle
+*/
+.menu {
+    display: table;
+}
+div#T1 {
+    position: absolute;
+height: 26px;
+left: 16.00%;
+right: 19.61%;
+top: -1px;
+margin-top: 35px;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+text-transform: uppercase;
+
+color: #000000;
+width: 31px;
+height: 26px;
+}
+div#T2 {
+    margin-top: 35px;
+    margin-left: 130px;
+    position: absolute;
+height: 26px;
+left: 14.25%;
+right: 17.86%;
+top: -1px;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+div#T3 {
+    margin-top: 35px;
+    margin-left: 260px;
+    position: absolute;
+    height: 26px;
+    left: 12.78%;
+    right: 16.39%;
+    top: -1px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+div#T4 {
+    margin-top: 35px;
+    margin-left: 375px;
+    position: absolute;
+    height: 26px;
+    left: 12.78%;
+    right: 16.39%;
+    top: -1px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+div#T5 {
+    margin-top: 35px;
+    margin-left: 470px;
+    position: absolute;
+    height: 26px;
+    left: 12.78%;
+    right: 16.39%;
+    top: -1px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+div#T6 {
+    margin-top: 35px;
+    margin-left: 560px;
+    position: absolute;
+    height: 26px;
+    left: 12.78%;
+    right: 16.39%;
+    top: -1px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+ /* Синяя рамка, так же в шапке */
+div#R1 {
+    width: 193px;
+    height: 52px;
+    background: #0057FF;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 1400px;
+}
+div#T7 {
+    margin-top: 35px;
+    margin-left: 1444px;
+    position: absolute;
+    height: 26px;
+    line-height: 30px;
+    
+    top: -1px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* identical to box height, or 200% */
+    
+    text-transform: uppercase;
+    
+    color: #ffffff;
+     /* Здесь началось тело*/
+}
+div#BT1 {
+    margin-top: 251px;
+    width: 700px;
+    height: 132px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 56px;
+    left: 120px;
+    position: absolute;
+    font-family: 'Oswald';
+}
+div#BT2 {
+    margin-left: 120px;
+    margin-top: 500px;
+    position: absolute;
+    height: 78px;
+    left: 0%;
+    right: 3.2%;
+    top: 13px;
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+/* Тут началась женщина с планшетом, а вокруг неё серенькие малозаметные треугольники */
+img#I2 {
+    margin-top: 200px;
+    margin-left: 830px;
+    position: absolute;
+    height: 750px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+img#I3 {
+    margin-top: 330px;
+    margin-left: 885px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+img#I4 {
+    margin-top: 520px;
+    margin-left: 1330px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+img#I5 {
+    margin-top: 840px;
+    margin-left: 830px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+/* Женщина в маленьком зелёном треугольнике-Samantha. И текст вместе с ней. */
+img#I6 {
+    margin-top: 550px;
+    margin-left: 120px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+div#BT3 {
+    margin-top: 566px;
+    height: 28px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    left: 260px;
+    position: absolute;
+    font-family: 'Oswald';
+    color: #000000;
+}
+/* Пять звёзд возле той же женщины */
+img#I7 {
+    margin-top: 600px;
+    margin-left: 250px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+img#I8 {
+    margin-top: 600px;
+    margin-left: 270px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+img#I9 {
+    margin-top: 600px;
+    margin-left: 290px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+img#I10 {
+    margin-top: 600px;
+    margin-left: 310px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+img#I11 {
+    margin-top: 600px;
+    margin-left: 330px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+/* Оранжевая кнопка возле неё */
+div#BUT1 {
+    margin-top: 660px;
+    margin-left: 125px;
+    width: 200px;
+    height: 52px;
+    position: absolute;
+    background: #FFA332;
+    border-radius: 30px;
+}
+div#BT4 {
+    margin-top: 674px;
+    margin-left: 177px;
+    height: 24px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    line-height: 24px;
+}
+div#BT5 {
+    position: absolute;
+    height: 22px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-left: 46%;
+    margin-top: 930px;
+    color: #0057FF;
+    
+}
+div#BT6 {
+    position: absolute;
+    height: 48px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-left: 37%;
+    margin-top: 950px;
+}
+div#BT7 {
+    position: absolute;
+height: 52px;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-size: 22px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+margin-left: 29%;
+margin-top: 1080px;
+color: #000000;
+}
+img#I12 {
+    position: absolute;
+height: 400px;
+margin-left: 18%;
+margin-top: 1200px;
+background: url(.png);
+border-radius: 10px;
+}
+div#BT8 {
+    position: absolute;
+    height: 26px;
+    margin-top: 1650px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    margin-left: 47%;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+img#I13 {
+    margin-top: 1220px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+img#I14 {
+    margin-top: 1520px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 72%;
+}
+img#I15 {
+    margin-top: 2000px;
+    position: absolute;
+height: 200px;
+
+
+border-radius: 15px 15px 0px 0px;
+    margin-left: 55%;
+}
+img#I16 {
+    margin-left: 52%;
+    margin-top: 2100px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+/* Реализация тени, отбрасываемого блоком. */
+.shadow {
+
+    margin-top: 2200px;
+margin-left: 55.5%;
+    width: 540px;
+    height: 685px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
+}
+div#BT9 {
+    position: absolute;
+height: 40px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 40px;
+/* identical to box height, or 138% */
+
+text-align: center;
+text-transform: uppercase;
+margin-top: 60px;
+margin-left: 6%;
+color: #000000;
+}
+div#BT10 {
+    position: absolute;
+height: 52px;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+margin-top: 125px;
+margin-left: 2%;
+color: #000000;
+
+}
+/* Начались поля в обратной связи, их будет 4 */
+div#RISH1 {
+    width: 218px;
+    height: 60px;
+    background: #F8F8F8;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 200px;
+    margin-left: 2%;
+    border: 1px solid #E7E7E7;
+}
+div#BT11 {
+    position: absolute;
+height: 60px;
+left: 26px;
+top: 0px;
+
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 60px;
+/* identical to box height, or 400% */
+
+text-align: center;
+
+color: #000000;
+}
+div#RISH2 {
+position: absolute;
+height: 60px;
+width: 218px;
+margin-top: 200px;
+    margin-left: 16%;
+background: #F8F8F8;
+border: 1px solid #E7E7E7;
+border-radius: 6px;
+}
+div#BT12 {
+    position: absolute;
+    height: 60px;
+    left: 26px;
+    top: 0px;
+    
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 60px;
+    /* identical to box height, or 400% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+div#RISH3 {
+position: absolute;
+width: 460px;
+height: 60px;
+margin-top: 300px;
+    margin-left: 2%;
+
+background: #F8F8F8;
+border: 1px solid #E7E7E7;
+border-radius: 6px;
+}
+div#BT13 {
+    position: absolute;
+height: 60px;
+left: 26px;
+top: 0px;
+
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 60px;
+/* identical to box height, or 400% */
+
+text-align: center;
+
+color: #000000;
+}
+div#RISH4 {
+position: absolute;
+height: 140px;
+width: 460px;
+margin-top: 400px;
+    margin-left: 2%;
+
+background: #F8F8F8;
+border: 1px solid #E7E7E7;
+border-radius: 6px;
+}
+div#BT14 {
+    position: absolute;
+height: 60px;
+top: 0px;
+left: 26px;
+font-family: 'Roboto-Regular';
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+line-height: 60px;
+/* identical to box height, or 400% */
+
+text-align: center;
+
+color: #000000;
+
+}
+/* Закончились поля в обратной связи, сейчас будет зелёный треугольник, а после начнётся левая часть "части" ( да-да, тофтология, простите:) ) */
+img#I17 {
+    position: absolute;
+width: 200px;
+height: 200px;
+margin-top: 392px;
+margin-left: 21%;
+}
+/* Синяя кнопка sent message */
+div#BUT2 {
+    position: absolute;
+height: 52px;
+width: 460px;
+
+background: #0057FF;
+border-radius: 30px;
+margin-top: 583px;
+margin-left: 2%;
+}
+div#BT15 {
+    position: absolute;
+    margin-top: -5px;
+height: 60px;
+margin-left: 39%;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 60px;
+/* identical to box height, or 400% */
+
+
+
+color: #FFFFFF;
+
+}
+/* Начало левой части у части (азазаз) */
+div#BT16 {
+    position: absolute;
+height: 150px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+margin-top: -700px;
+left: 120px;
+}
+div#BT17 {
+    left: 120px;
+    position: absolute;
+height: 52px;
+
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+/* or 173% */
+margin-top: -500px;
+
+color: #000000;
+}
+img#I18 {
+    
+position: absolute;
+height: 45px;
+left: 120px;
+margin-top: -410px;
+}
+div#BT19 {
+    position: absolute;
+height: 36px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+/* identical to box height, or 144% */
+left: 120px;
+text-transform: uppercase;
+margin-top: -340px;
+color: #000000;
+}
+div#BT20 {
+    position: absolute;
+    left: 120px;
+    
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    margin-top: -280px;
+    color: #000000;
+}
+img#I19 {
+    position: absolute;
+height: 45px;
+left: 400px;
+margin-top: -410px;
+}
+div#BT21 {
+    position: absolute;
+height: 36px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+/* identical to box height, or 144% */
+left: 400px;
+text-transform: uppercase;
+margin-top: -340px;
+color: #000000;
+}
+div#BT22 {
+    position: absolute;
+    left: 400px;
+    
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    margin-top: -280px;
+    color: #000000;
+}
+/* Синяя кнопка read more и часть заканчивается */
+div#BUT3 {
+    position: absolute;
+height: 52px;
+left: 120px;
+margin-top: -200px;
+width: 140px;
+background: #0057FF;
+border-radius: 30px;
+}
+div#BT23 {
+    position: absolute;
+height: 24px;
+left: 29%;
+margin-top: 12px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+/* Начинается новая часть, три человека в трёх треугольниках. Реализация начнётся с правой стороны */
+div#BT24 {
+    position: absolute;
+height: 100px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+margin-left:1040px;
+margin-top: 300px;
+}
+div#BT25 {
+    position: absolute;
+height: 52px;
+
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+/* or 173% */
+margin-left:1040px;
+margin-top: 450px;
+
+color: #000000;
+
+}
+/* Прямоугольник с обводкой, в котором надписи с плюсиками*/
+div#R2 {
+    height: 352px;
+    width: 498px;
+    border: 1px solid #E7E7E7;
+    margin-left:1040px;
+    margin-top: 560px;
+    border-radius: 10px;
+}
+div#BT26 {
+    position: absolute;
+height: 28px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-transform: uppercase;
+
+color: #000000;
+margin-top: 30px;
+margin-left: 40px;
+}
+img#I20 {
+    position: absolute;
+height: 18px;
+margin-top: 35px;
+margin-left: 453px;
+}
+div#BT27 {
+    position: absolute;
+height: 28px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-transform: uppercase;
+
+color: #000000;
+margin-top: 115px;
+margin-left: 40px;
+}
+img#I21 {
+    position: absolute;
+height: 18px;
+margin-top: 115px;
+margin-left: 453px;
+}
+div#BT28 {
+    position: absolute;
+height: 28px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-transform: uppercase;
+
+color: #000000;
+margin-top: 195px;
+margin-left: 40px;
+}
+img#I22 {
+    position: absolute;
+height: 18px;
+margin-top: 195px;
+margin-left: 453px;
+}
+div#BT29 {
+    position: absolute;
+height: 28px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-transform: uppercase;
+
+color: #000000;
+margin-top: 275px;
+margin-left: 40px;
+}
+img#I23 {
+    position: absolute;
+height: 18px;
+margin-top: 275px;
+margin-left: 453px;
+}
+img#I24 {
+    margin-left:300px;
+    margin-top: -580px;
+    position: absolute;
+    height: 589px;
+}
+img#I25 {
+    position: absolute;
+height: 100px;
+margin-left: 66px;
+}
+/* И так, снова новая часть. Но начну я её на этот раз с слева на право */
+div#BT30 {
+    position: absolute;
+height: 150px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+left: 120px;
+margin-top: 274px;
+}
+div#BT31 {
+    position: absolute;
+height: 48px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+left: 120px;
+margin-top: 473px;
+color: #000000;
+}
+div#BT32 {
+    position: absolute;
+height: 30px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+/* identical to box height, or 158% */
+
+text-transform: uppercase;
+
+color: #000000;
+left: 130px;
+margin-top: 567px;
+}
+div#BT33 {
+    position: absolute;
+height: 30px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-align: right;
+text-transform: uppercase;
+left: 611px;
+margin-top: 567px;
+color: #000000;
+}
+div#R3 {
+    position: absolute;
+height: 4px;
+width: 459px;
+left: 120px;
+margin-top: 607px;
+
+background: #0057FF;
+border-radius: 100px;
+}
+div#R4 {
+    position: absolute;
+height: 4px;
+width: 540px;
+left: 120px;
+margin-top: 607px;
+background: #EBEBEB;
+border-radius: 100px;
+z-index: -1;
+}
+div#BT34 {
+    position: absolute;
+    height: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    /* identical to box height, or 158% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    left: 130px;
+    margin-top: 641px;
+}
+div#BT35 {
+    position: absolute;
+    height: 30px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: right;
+    text-transform: uppercase;
+    left: 611px;
+    margin-top: 641px;
+    color: #000000;
+}
+div#R5 {
+    position: absolute;
+height: 4px;
+width: 351px;
+left: 120px;
+margin-top: 681px;
+
+background: #B861FF;
+border-radius: 100px;
+}
+div#R6 {
+    position: absolute;
+height: 4px;
+width: 540px;
+left: 120px;
+margin-top: 681px;
+background: #EBEBEB;
+border-radius: 100px;
+z-index: -1;
+}
+div#BT36 {
+    position: absolute;
+    height: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    /* identical to box height, or 158% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    left: 130px;
+    margin-top: 715px;
+}
+div#BT37 {
+    position: absolute;
+    height: 30px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: right;
+    text-transform: uppercase;
+    left: 611px;
+    margin-top: 715px;
+    color: #000000;
+}
+div#R7 {
+    position: absolute;
+height: 4px;
+width: 351px;
+left: 120px;
+margin-top: 755px;
+
+background: #FF8E32;
+border-radius: 100px;
+}
+div#R8 {
+    position: absolute;
+height: 4px;
+width: 540px;
+left: 120px;
+margin-top: 755px;
+background: #EBEBEB;
+border-radius: 100px;
+z-index: -1;
+}
+   /* началась покупка билета */
+img#I26 {
+    left: 1025px;
+    margin-top: 161px;
+    position: absolute;
+height: 200px;
+width: 540px;
+border-radius: 15px 15px 0px 0px;
+
+}
+div#BT38 {
+    position: absolute;
+height: 30px;
+left: 1220px;
+margin-top: 240px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+/* identical to box height, or 158% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+div#R9 {
+    background: #FFFFFF;
+    position: absolute;
+height: 510px;
+width: 540px;
+box-shadow: 0px 10px 30px rgba(83, 83, 83, 0.15);
+border-radius: 10px;
+left: 1025px;
+margin-top: 361px;
+}
+div#BT39 {
+    position: absolute;
+height: 50px;
+margin-left: 216px;
+margin-top: 31px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT40 {
+    position: absolute;
+    height: 20px;
+    margin-left: 240px;
+    margin-top: 90px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+div#BT41 {
+    position: absolute;
+height: 22px;
+margin-left: 109px;
+margin-top: 141px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT42 {
+    position: absolute;
+height: 22px;
+margin-left: 109px;
+margin-top: 181px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT43 {
+    position: absolute;
+height: 22px;
+margin-left: 109px;
+margin-top: 221px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT44 {
+    position: absolute;
+height: 22px;
+margin-left: 109px;
+margin-top: 261px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT45 {
+    position: absolute;
+height: 22px;
+margin-left: 109px;
+margin-top: 301px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT46 {
+    position: absolute;
+height: 22px;
+margin-left: 109px;
+margin-top: 341px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#R10 {
+    position: absolute;
+    width: 137px;
+height: 52px;
+margin-left: 202px;
+margin-top: 418px;
+background: #0057FF;
+border-radius: 30px;
+}
+div#BT47 {
+    position: absolute;
+height: 24px;
+margin-left: 40px;
+margin-top: 14px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+/* Новая часть, здесь отзывы */
+/* Первый отзыв */
+div#R11 {
+position: absolute;
+height: 346px;
+width: 380px;
+left: 130px;
+margin-top: 1089px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+border-radius: 10px;
+}
+div#BT48 {
+    position: absolute;
+height: 72px;
+margin-left: 46px;
+margin-top: 45px;
+font-family: 'Roboto-Reguar';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 171% */
+
+text-align: center;
+
+color: #000000;
+}
+img#I27 {
+    position: absolute;
+width: 80px;
+height: 80px;
+margin-left: 150px;
+margin-top: 123px;
+}
+div#BT49 {
+    position: absolute;
+height: 30px;
+margin-left: 128px;
+margin-top: 223px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+div#BT50 {
+    position: absolute;
+height: 24px;
+margin-left: 141px;
+margin-top: 253px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+img#I28 {
+    position: absolute;
+width: 18px;
+height: 18px;
+margin-left: 145px;
+margin-top: 287px;
+}
+img#I29 {
+    position: absolute;
+width: 18px;
+height: 18px;
+margin-left: 163px;
+margin-top: 287px;
+}
+img#I30 {
+    position: absolute;
+width: 18px;
+height: 18px;
+margin-left: 181px;
+margin-top: 287px;
+}
+img#I31 {
+    position: absolute;
+width: 18px;
+height: 18px;
+margin-left: 199px;
+margin-top: 287px;
+}
+img#I32 {
+    position: absolute;
+width: 18px;
+height: 18px;
+margin-left: 217px;
+margin-top: 287px;
+}
+/* Второй отзыв */
+div#R12 {
+position: absolute;
+height: 346px;
+width: 380px;
+left: 650px;
+margin-top: 1089px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+border-radius: 10px;
+}
+div#BT51 {
+    position: absolute;
+height: 24px;
+margin-left: 163px;
+margin-top: 253px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+/* Третий отзыв */
+div#R13 {
+    position: absolute;
+height: 346px;
+width: 380px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+border-radius: 10px;
+left: 1150px;
+margin-top: 1089px;
+}
+div#BT52 {
+    position: absolute;
+height: 24px;
+margin-left: 150px;
+margin-top: 253px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+/* Отзывы закончились как и часть. Предстоит следующая с логотипами и каким-то текстом. */
+img#I33 {
+    position: absolute;
+width: 500px;
+height: 500px;
+margin-top: 1579px;
+left: 600px;
+}
+div#BT53 {
+    position: absolute;
+height: 22px;
+left: 765px;
+margin-top: 1711px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-align: center;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+color: #0057FF;
+
+}
+div#BT54 {
+    position: absolute;
+height: 102px;
+left: 465px;
+margin-top: 1756px;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+
+text-align: center;
+
+color: #000000;
+
+}
+div#R14 {
+    position: absolute;
+height: 52px;
+width: 161px;
+left: 770px;
+margin-top: 1895px;
+background: #0057FF;
+border-radius: 30px;
+}
+div#BT55 {
+    position: absolute;
+height: 24px;
+margin-left: 40px;
+margin-top: 14px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+/* Треугольник кончился, начались логотипы */
+div#R15 {
+    position: absolute;
+height: 1px;
+width: 1200px;
+left: 120px;
+margin-top: 2076px;
+background: #E7E7E7;
+}
+img#I34 {
+    position: absolute;
+width: 141px;
+height: 38px;
+left: 133px;
+margin-top: 2144px;
+}
+img#I35 {
+    position: absolute;
+width: 141px;
+height: 44px;
+left: 340px;
+margin-top: 2144px;
+}
+img#I36 {
+    position: absolute;
+width: 141px;
+height: 36px;
+left: 546px;
+margin-top: 2144px;
+}
+img#I37 {
+    position: absolute;
+width: 141px;
+height: 40px;
+left: 753px;
+margin-top: 2144px;
+}
+img#I38 {
+    position: absolute;
+width: 141px;
+height: 31px;
+left: 960px;
+margin-top: 2144px;
+}
+img#I39 {
+    position: absolute;
+width: 141px;
+height: 27px;
+left: 1166px;
+margin-top: 2144px;
+}
+div#R16 {
+    position: absolute;
+height: 1px;
+width: 1200px;
+left: 120px;
+margin-top: 2245px;
+background: #E7E7E7;
+}
+/* Новая часть, 3 блока */
+div#BT56 {
+    position: absolute;
+height: 22px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+left: 790px;
+margin-top: 2345px;
+text-align: center;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+color: #0057FF;
+}
+div#BT57 {
+    position: absolute;
+height: 48px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+left: 625px;
+margin-top: 2371px;
+color: #000000;
+
+}
+img#I40 {
+    position: absolute;
+height: 60px;
+width: 60px;
+left: 72px;
+margin-top: 2389px;
+}
+div#R17 {
+position: absolute;
+height: 240px;
+width: 592px;
+left: 120px;
+margin-top: 2485px;
+background: #FFFFFF;
+border: 1px solid #D9DCEC;
+border-radius: 10px;
+}
+img#I41 {
+    position: absolute;
+height: 200px;
+width: 248px;
+margin-left: 21px;
+margin-top: 21px;
+border-radius: 10px;
+}
+div#BT58 {
+    position: absolute;
+height: 20px;
+margin-left: 299px;
+margin-top: 41px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+/* identical to box height, or 182% */
+
+text-transform: uppercase;
+
+color: #0057FF;
+
+}
+div#BT59 {
+    position: absolute;
+height: 60px;
+margin-left: 299px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+div#BT60 {
+    position: absolute;
+height: 48px;
+margin-left: 299px;
+margin-top: 145px;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #000000;
+
+}
+div#R18 {
+    box-sizing: border-box;
+
+position: absolute;
+height: 240px;
+width: 592px;
+left: 120px;
+margin-top: 2741px;
+background: #FFFFFF;
+border: 1px solid #D9DCEC;
+border-radius: 10px;
+}
+img#I42 {
+    position: absolute;
+height: 200px;
+left: 21px;
+margin-top: 21px;
+border-radius: 10px;
+}
+div#BT61 {
+    position: absolute;
+height: 20px;
+margin-left: 299px;
+margin-top: 56px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-transform: uppercase;
+
+color: #0057FF;
+}
+div#BT62 {
+    position: absolute;
+height: 30px;
+margin-left: 299px;
+margin-top: 76px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#BT63 {
+    position: absolute;
+height: 48px;
+margin-left: 299px;
+margin-top: 130px;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #000000;
+
+}
+div#R19 {
+    position: absolute;
+    height: 495px;
+    width: 592px;
+    left: 728px;
+    margin-top: 2485px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCEC;
+    border-radius: 10px;
+}
+img#I43 {
+    position: absolute;
+height: 453px;
+width: 550px;
+margin-left: 21px;
+margin-top: 21px;
+border-radius: 10px;
+}
+div#BT64 {
+    position: absolute;
+height: 20px;
+margin-left: 51px;
+margin-top: 324px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+/* identical to box height, or 182% */
+
+text-transform: uppercase;
+
+color: #0057FF;
+}
+div#BT65 {
+    position: absolute;
+height: 100px;
+margin-left: 51px;
+margin-top: 339px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+div#R20 {
+    position: absolute;
+height: 254px;
+width: 1440px;
+margin-top: 3081px;
+background: #000000;
+}
+img#I44 {
+    position: absolute;
+height: 42px;
+margin-left: 120px;
+margin-top: 71px;
+}
+div#BT66 {
+    position: absolute;
+height: 22px;
+margin-left: 120px;
+margin-top: 176px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #999999;
+}
+div#BT67 {
+    position: absolute;
+height: 22px;
+margin-left: 229px;
+margin-top: 176px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 22px;
+/* identical to box height, or 200% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+div#BT68 {
+    position: absolute;
+height: 22px;
+margin-left: 305px;
+margin-top: 177px;
+font-family: 'Roboto-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+
+color: #D7D5FF;
+
+}
+div#BT69 {
+    position: absolute;
+height: 22px;
+margin-left: 316px;
+margin-top: 176px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+text-transform: uppercase;
+
+color: #999999;
+
+}
+div#BT70 {
+    position: absolute;
+    height: 22px;
+    margin-left: 377px;
+    margin-top: 176px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+div#BT71 {
+    position: absolute;
+height: 22px;
+margin-left: 925px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+div#BT72 {
+    position: absolute;
+height: 22px;
+margin-left: 1013px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+div#BT73 {
+    position: absolute;
+height: 22px;
+margin-left: 1083px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 22px;
+/* identical to box height, or 200% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+div#BT74 {
+    position: absolute;
+height: 22px;
+margin-left: 1165px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+div#BT75 {
+    position: absolute;
+height: 22px;
+margin-left: 1220px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+div#BT76 {
+    position: absolute;
+height: 22px;
+margin-left: 1299px;
+margin-top: 61px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+div#R21 {   
+position: absolute;
+height: 50px;
+width: 50px;
+margin-left: 1104px;
+margin-top: 153px;
+border: 1px solid rgba(240, 242, 250, 0.33);
+border-radius: 100px;
+}
+img#I45 {
+    position: absolute;
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-top: 15px;
+}
+div#R22 {   
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 1158px;
+    margin-top: 153px;
+    border: 1px solid rgba(240, 242, 250, 0.33);
+    border-radius: 100px;
+}
+div#R23 {   
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 1212px;
+    margin-top: 153px;
+    border: 1px solid rgba(240, 242, 250, 0.33);
+    border-radius: 100px;
+}
+div#R24 {   
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 1266px;
+    margin-top: 153px;
+    border: 1px solid rgba(240, 242, 250, 0.33);
+    border-radius: 100px;
+}
